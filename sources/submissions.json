@@ -1,0 +1,16 @@
+[
+  {
+    "organization": "ORG-A",
+    "activity_id": "DR-1",
+    "date": "2026-11-09",
+    "participants": 80,
+    "summary": "社区应急疏散"
+  },
+  {
+    "organization": "ORG-A",
+    "activity_id": "DR-2",
+    "date": "2026-11-10",
+    "participants": 32,
+    "summary": "企业灭火演练"
+  }
+]

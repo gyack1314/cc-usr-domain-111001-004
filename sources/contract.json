@@ -1,0 +1,13 @@
+{
+  "POST /login": "URL编码表单account=demo-org,password=local-only，均为公开合成凭据",
+  "GET /form": "需session Cookie，一次性CSRF",
+  "POST /submit": "正常表单，允许同自然键重复写入",
+  "GET /query": "按查询字段过滤回执",
+  "summary_hash": "UTF-8摘要正文的SHA-256",
+  "phases": [
+    "base",
+    "expired",
+    "lost-response",
+    "query-delay"
+  ]
+}
