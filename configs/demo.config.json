@@ -1,0 +1,20 @@
+{
+  "portal_base_url": "http://127.0.0.1:8090",
+  "accounts": [
+    {
+      "organization": "ORG-A",
+      "account": "demo-org",
+      "password_env": "RPA_PASSWORD_ORG_A"
+    },
+    {
+      "organization": "ORG-B",
+      "account": "demo-org2",
+      "password_env": "RPA_PASSWORD_ORG_B"
+    }
+  ],
+  "db_path": "state/demo/tasks.sqlite3",
+  "evidence_dir": "state/demo/evidence",
+  "log_file": "state/demo/rpa.log",
+  "timeout_seconds": 5,
+  "lease_seconds": 60
+}

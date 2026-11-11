@@ -1,13 +1,17 @@
 {
-  "POST /login": "URL编码表单account=demo-org,password=local-only，均为公开合成凭据",
-  "GET /form": "需session Cookie，一次性CSRF",
-  "POST /submit": "正常表单，允许同自然键重复写入",
-  "GET /query": "按查询字段过滤回执",
+  "POST /login": "URL编码表单，公开合成账号 demo-org/local-only（组织 ORG-A）与 demo-org2/local-only-2（组织 ORG-B）",
+  "GET /form": "需 session Cookie，按会话发放一次性 CSRF",
+  "POST /submit": "正常表单，允许同自然键重复写入；组织与会话归属不一致或人数为负返回 422 且 written=false",
+  "GET /query": "按查询字段过滤回执，只返回当前会话所属组织可见的回执",
   "summary_hash": "UTF-8摘要正文的SHA-256",
   "phases": [
     "base",
     "expired",
     "lost-response",
     "query-delay"
+  ],
+  "ops_only": [
+    "/__control",
+    "/__calls"
   ]
 }

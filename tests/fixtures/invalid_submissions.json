@@ -1,0 +1,16 @@
+[
+  {
+    "organization": "ORG-A",
+    "activity_id": "BAD-1",
+    "date": "2026-11-11",
+    "participants": -3,
+    "summary": "人数非法的合成资料"
+  },
+  {
+    "organization": "ORG-A",
+    "activity_id": "",
+    "date": "2026-11-11",
+    "participants": 5,
+    "summary": "缺少活动编号"
+  }
+]

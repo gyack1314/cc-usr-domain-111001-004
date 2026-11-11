@@ -1,0 +1,16 @@
+[
+  {
+    "organization": "ORG-B",
+    "activity_id": "DR-9",
+    "date": "2026-11-10",
+    "participants": 45,
+    "summary": "社区急救技能演练"
+  },
+  {
+    "organization": "ORG-B",
+    "activity_id": "DR-10",
+    "date": "2026-11-11",
+    "participants": 12,
+    "summary": "志愿者物资点验"
+  }
+]
